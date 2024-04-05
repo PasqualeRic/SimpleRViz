@@ -1,0 +1,2 @@
+simple_rviz_pkg
+-DCATKIN_DEVEL_PREFIX=/home/ubuntu/simple_rviz/devel -DCMAKE_INSTALL_PREFIX=/home/ubuntu/simple_rviz/install -G Unix Makefiles

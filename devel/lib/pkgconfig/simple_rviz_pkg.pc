@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/simple_rviz/devel
+
+Name: simple_rviz_pkg
+Description: Description of simple_rviz_pkg
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: roscpp std_msgs
