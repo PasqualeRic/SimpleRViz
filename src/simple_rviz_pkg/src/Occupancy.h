@@ -2,38 +2,36 @@
 #define VISUALIZATION_NODE_H
 
 #include <ros/ros.h>
-#include <sensor_msgs/LaserScan.h>
 #include <nav_msgs/OccupancyGrid.h>
+#include <nav_msgs/Odometry.h>
 #include <geometry_msgs/PoseWithCovarianceStamped.h>
+#include <sensor_msgs/LaserScan.h>
 #include <geometry_msgs/PoseStamped.h>
-#include <tf2_ros/transform_listener.h>
-#include <tf2_geometry_msgs/tf2_geometry_msgs.h>
 #include <opencv2/opencv.hpp>
-#include <fstream>
-#include <sstream>
+#include <tf/transform_listener.h>
 
-struct Robot {
-    float posX;
-    float posY;
-    float posZ;
-    float sizeX;
-    float sizeY;
-    float sizeZ;
-    float orientation;
-    std::string colore;
-    std::string nome;
-};
+
 
 struct Ostacolo {
+    std::string nome;
+    std::string colore;
     float posX;
     float posY;
     float posZ;
+    float orientation;
     float sizeX;
     float sizeY;
-    float sizeZ;
-    float orientation;
-    std::string colore;
+};
+
+struct Robot {
     std::string nome;
+    std::string colore;
+    float posX;
+    float posY;
+    float posZ;
+    float orientation;
+    float sizeX;
+    float sizeY;
 };
 
 class VisualizationNode {
@@ -42,17 +40,32 @@ public:
     ~VisualizationNode();
 
     void mapCallback(const nav_msgs::OccupancyGrid::ConstPtr& msg);
-    cv::Point stageToOpenCV(float x_stage, float y_stage);
+    void odomCallback(const nav_msgs::Odometry::ConstPtr& msg);
+    void scanCallback(const sensor_msgs::LaserScan::ConstPtr& msg);
+
     void visualizeMap();
     void readWorldFile(const std::string& filename);
+    void updateRobotPosition(float x, float y, float orientation);
+    void getRobotPosition(float& x, float& y, float& orientation);
+    void visualizeRobot();
 
 private:
+
     ros::NodeHandle nh;
     ros::Subscriber map_sub;
+    ros::Subscriber odom_sub;
+    ros::Subscriber sub;
+
     nav_msgs::OccupancyGrid::ConstPtr map_msg;
+    cv::Mat map_image;
+    bool map_initialized;
+
     std::vector<Ostacolo> ostacoli;
     std::vector<Robot> robots;
-    bool map_initialized;
+
+    cv::Point stageToOpenCV(float x_stage, float y_stage);
+    int height; //Height of the map
+
 };
 
 #endif // VISUALIZATION_NODE_H

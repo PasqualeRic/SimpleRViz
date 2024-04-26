@@ -90,6 +90,10 @@ publisher_EXTERNAL_OBJECTS =
 
 /home/ubuntu/simple_rviz/devel/lib/simple_rviz_pkg/publisher: simple_rviz_pkg/CMakeFiles/publisher.dir/src/publisher.cpp.o
 /home/ubuntu/simple_rviz/devel/lib/simple_rviz_pkg/publisher: simple_rviz_pkg/CMakeFiles/publisher.dir/build.make
+/home/ubuntu/simple_rviz/devel/lib/simple_rviz_pkg/publisher: /opt/ros/melodic/lib/libtf2_ros.so
+/home/ubuntu/simple_rviz/devel/lib/simple_rviz_pkg/publisher: /opt/ros/melodic/lib/libmessage_filters.so
+/home/ubuntu/simple_rviz/devel/lib/simple_rviz_pkg/publisher: /opt/ros/melodic/lib/libtf2.so
+/home/ubuntu/simple_rviz/devel/lib/simple_rviz_pkg/publisher: /opt/ros/melodic/lib/libactionlib.so
 /home/ubuntu/simple_rviz/devel/lib/simple_rviz_pkg/publisher: /opt/ros/melodic/lib/libroscpp.so
 /home/ubuntu/simple_rviz/devel/lib/simple_rviz_pkg/publisher: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so
 /home/ubuntu/simple_rviz/devel/lib/simple_rviz_pkg/publisher: /opt/ros/melodic/lib/librosconsole.so

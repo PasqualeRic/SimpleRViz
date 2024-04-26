@@ -5,10 +5,14 @@ int main(int argc, char** argv) {
     ROS_INFO("Map listener node started");
 
     VisualizationNode node;
+
+    ros::NodeHandle nh;
     ros::Rate rate(10);
     while (ros::ok()) {
         ros::spinOnce();
+        // Visualizza la mappa
         node.visualizeMap();
+
         rate.sleep();
     }
 

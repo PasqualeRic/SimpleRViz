@@ -3,12 +3,10 @@
 
 simple_rviz_pkg/CMakeFiles/publisher.dir/src/publisher.cpp.o
  /home/ubuntu/simple_rviz/src/simple_rviz_pkg/src/publisher.cpp
- /opt/ros/melodic/include/geometry_msgs/Point.h
- /opt/ros/melodic/include/geometry_msgs/Pose.h
- /opt/ros/melodic/include/geometry_msgs/PoseStamped.h
- /opt/ros/melodic/include/geometry_msgs/PoseWithCovariance.h
- /opt/ros/melodic/include/geometry_msgs/PoseWithCovarianceStamped.h
  /opt/ros/melodic/include/geometry_msgs/Quaternion.h
+ /opt/ros/melodic/include/geometry_msgs/Transform.h
+ /opt/ros/melodic/include/geometry_msgs/TransformStamped.h
+ /opt/ros/melodic/include/geometry_msgs/Vector3.h
  /opt/ros/melodic/include/ros/advertise_options.h
  /opt/ros/melodic/include/ros/advertise_service_options.h
  /opt/ros/melodic/include/ros/assert.h
@@ -66,5 +64,6 @@ simple_rviz_pkg/CMakeFiles/publisher.dir/src/publisher.cpp.o
  /opt/ros/melodic/include/ros/wall_timer_options.h
  /opt/ros/melodic/include/rosconsole/macros_generated.h
  /opt/ros/melodic/include/std_msgs/Header.h
+ /opt/ros/melodic/include/tf2_ros/transform_broadcaster.h
  /opt/ros/melodic/include/xmlrpcpp/XmlRpcDecl.h
  /opt/ros/melodic/include/xmlrpcpp/XmlRpcValue.h

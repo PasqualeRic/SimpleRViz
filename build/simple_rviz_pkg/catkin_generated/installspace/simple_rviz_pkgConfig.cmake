@@ -185,7 +185,7 @@ foreach(t ${simple_rviz_pkg_EXPORTED_TARGETS})
   endif()
 endforeach()
 
-set(depends "roscpp;std_msgs")
+set(depends "roscpp;geometry_msgs;move_base_msgs;actionlib;std_msgs")
 foreach(depend ${depends})
   string(REPLACE " " ";" depend_list ${depend})
   # the package name of the dependency must be kept in a unique variable so that it is not overwritten in recursive calls
