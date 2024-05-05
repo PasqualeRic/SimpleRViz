@@ -6,9 +6,8 @@
   <node pkg="stage_ros" type="stageros" name="stageros" args="$(find simple_rviz_pkg)/map/cappero_laser_odom_diag_obstacle_2020-05-06-16-26-03.world" respawn="false" >
     <param name="base_watchdog_timeout" value="0.2"/>
   </node>
-  <include file="$(find simple_rviz_pkg)/launch/amcl_params.xml">
-   
-  </include>
+  <include file="$(find simple_rviz_pkg)/launch/amcl_params.xml" />
+  <node name="rviz" pkg="simple_rviz_pkg" type="rviz" output="screen" />  
 </launch>
 
 

@@ -57,33 +57,9 @@ include simple_rviz_pkg/CMakeFiles/rviz.dir/progress.make
 # Include the compile flags for this target's objects.
 include simple_rviz_pkg/CMakeFiles/rviz.dir/flags.make
 
-simple_rviz_pkg/CMakeFiles/rviz.dir/src/rviz.cpp.o: simple_rviz_pkg/CMakeFiles/rviz.dir/flags.make
-simple_rviz_pkg/CMakeFiles/rviz.dir/src/rviz.cpp.o: /home/ubuntu/simple_rviz/src/simple_rviz_pkg/src/rviz.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/simple_rviz/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object simple_rviz_pkg/CMakeFiles/rviz.dir/src/rviz.cpp.o"
-	cd /home/ubuntu/simple_rviz/build/simple_rviz_pkg && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rviz.dir/src/rviz.cpp.o -c /home/ubuntu/simple_rviz/src/simple_rviz_pkg/src/rviz.cpp
-
-simple_rviz_pkg/CMakeFiles/rviz.dir/src/rviz.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rviz.dir/src/rviz.cpp.i"
-	cd /home/ubuntu/simple_rviz/build/simple_rviz_pkg && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/simple_rviz/src/simple_rviz_pkg/src/rviz.cpp > CMakeFiles/rviz.dir/src/rviz.cpp.i
-
-simple_rviz_pkg/CMakeFiles/rviz.dir/src/rviz.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rviz.dir/src/rviz.cpp.s"
-	cd /home/ubuntu/simple_rviz/build/simple_rviz_pkg && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/simple_rviz/src/simple_rviz_pkg/src/rviz.cpp -o CMakeFiles/rviz.dir/src/rviz.cpp.s
-
-simple_rviz_pkg/CMakeFiles/rviz.dir/src/rviz.cpp.o.requires:
-
-.PHONY : simple_rviz_pkg/CMakeFiles/rviz.dir/src/rviz.cpp.o.requires
-
-simple_rviz_pkg/CMakeFiles/rviz.dir/src/rviz.cpp.o.provides: simple_rviz_pkg/CMakeFiles/rviz.dir/src/rviz.cpp.o.requires
-	$(MAKE) -f simple_rviz_pkg/CMakeFiles/rviz.dir/build.make simple_rviz_pkg/CMakeFiles/rviz.dir/src/rviz.cpp.o.provides.build
-.PHONY : simple_rviz_pkg/CMakeFiles/rviz.dir/src/rviz.cpp.o.provides
-
-simple_rviz_pkg/CMakeFiles/rviz.dir/src/rviz.cpp.o.provides.build: simple_rviz_pkg/CMakeFiles/rviz.dir/src/rviz.cpp.o
-
-
 simple_rviz_pkg/CMakeFiles/rviz.dir/src/Occupancygrid.cpp.o: simple_rviz_pkg/CMakeFiles/rviz.dir/flags.make
 simple_rviz_pkg/CMakeFiles/rviz.dir/src/Occupancygrid.cpp.o: /home/ubuntu/simple_rviz/src/simple_rviz_pkg/src/Occupancygrid.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/simple_rviz/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object simple_rviz_pkg/CMakeFiles/rviz.dir/src/Occupancygrid.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/simple_rviz/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object simple_rviz_pkg/CMakeFiles/rviz.dir/src/Occupancygrid.cpp.o"
 	cd /home/ubuntu/simple_rviz/build/simple_rviz_pkg && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rviz.dir/src/Occupancygrid.cpp.o -c /home/ubuntu/simple_rviz/src/simple_rviz_pkg/src/Occupancygrid.cpp
 
 simple_rviz_pkg/CMakeFiles/rviz.dir/src/Occupancygrid.cpp.i: cmake_force
@@ -107,13 +83,11 @@ simple_rviz_pkg/CMakeFiles/rviz.dir/src/Occupancygrid.cpp.o.provides.build: simp
 
 # Object files for target rviz
 rviz_OBJECTS = \
-"CMakeFiles/rviz.dir/src/rviz.cpp.o" \
 "CMakeFiles/rviz.dir/src/Occupancygrid.cpp.o"
 
 # External object files for target rviz
 rviz_EXTERNAL_OBJECTS =
 
-/home/ubuntu/simple_rviz/devel/lib/simple_rviz_pkg/rviz: simple_rviz_pkg/CMakeFiles/rviz.dir/src/rviz.cpp.o
 /home/ubuntu/simple_rviz/devel/lib/simple_rviz_pkg/rviz: simple_rviz_pkg/CMakeFiles/rviz.dir/src/Occupancygrid.cpp.o
 /home/ubuntu/simple_rviz/devel/lib/simple_rviz_pkg/rviz: simple_rviz_pkg/CMakeFiles/rviz.dir/build.make
 /home/ubuntu/simple_rviz/devel/lib/simple_rviz_pkg/rviz: /opt/ros/melodic/lib/libtf.so
@@ -204,7 +178,7 @@ rviz_EXTERNAL_OBJECTS =
 /home/ubuntu/simple_rviz/devel/lib/simple_rviz_pkg/rviz: /usr/lib/aarch64-linux-gnu/libopencv_imgproc.so.3.2.0
 /home/ubuntu/simple_rviz/devel/lib/simple_rviz_pkg/rviz: /usr/lib/aarch64-linux-gnu/libopencv_core.so.3.2.0
 /home/ubuntu/simple_rviz/devel/lib/simple_rviz_pkg/rviz: simple_rviz_pkg/CMakeFiles/rviz.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/simple_rviz/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable /home/ubuntu/simple_rviz/devel/lib/simple_rviz_pkg/rviz"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/simple_rviz/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/ubuntu/simple_rviz/devel/lib/simple_rviz_pkg/rviz"
 	cd /home/ubuntu/simple_rviz/build/simple_rviz_pkg && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/rviz.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -212,7 +186,6 @@ simple_rviz_pkg/CMakeFiles/rviz.dir/build: /home/ubuntu/simple_rviz/devel/lib/si
 
 .PHONY : simple_rviz_pkg/CMakeFiles/rviz.dir/build
 
-simple_rviz_pkg/CMakeFiles/rviz.dir/requires: simple_rviz_pkg/CMakeFiles/rviz.dir/src/rviz.cpp.o.requires
 simple_rviz_pkg/CMakeFiles/rviz.dir/requires: simple_rviz_pkg/CMakeFiles/rviz.dir/src/Occupancygrid.cpp.o.requires
 
 .PHONY : simple_rviz_pkg/CMakeFiles/rviz.dir/requires

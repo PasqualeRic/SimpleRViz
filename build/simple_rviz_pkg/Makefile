@@ -1001,33 +1001,6 @@ src/robot_controller.cpp.s:
 	cd /home/ubuntu/simple_rviz/build && $(MAKE) -f simple_rviz_pkg/CMakeFiles/position.dir/build.make simple_rviz_pkg/CMakeFiles/position.dir/src/robot_controller.cpp.s
 .PHONY : src/robot_controller.cpp.s
 
-src/rviz.o: src/rviz.cpp.o
-
-.PHONY : src/rviz.o
-
-# target to build an object file
-src/rviz.cpp.o:
-	cd /home/ubuntu/simple_rviz/build && $(MAKE) -f simple_rviz_pkg/CMakeFiles/rviz.dir/build.make simple_rviz_pkg/CMakeFiles/rviz.dir/src/rviz.cpp.o
-.PHONY : src/rviz.cpp.o
-
-src/rviz.i: src/rviz.cpp.i
-
-.PHONY : src/rviz.i
-
-# target to preprocess a source file
-src/rviz.cpp.i:
-	cd /home/ubuntu/simple_rviz/build && $(MAKE) -f simple_rviz_pkg/CMakeFiles/rviz.dir/build.make simple_rviz_pkg/CMakeFiles/rviz.dir/src/rviz.cpp.i
-.PHONY : src/rviz.cpp.i
-
-src/rviz.s: src/rviz.cpp.s
-
-.PHONY : src/rviz.s
-
-# target to generate assembly for a file
-src/rviz.cpp.s:
-	cd /home/ubuntu/simple_rviz/build && $(MAKE) -f simple_rviz_pkg/CMakeFiles/rviz.dir/build.make simple_rviz_pkg/CMakeFiles/rviz.dir/src/rviz.cpp.s
-.PHONY : src/rviz.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1099,9 +1072,6 @@ help:
 	@echo "... src/robot_controller.o"
 	@echo "... src/robot_controller.i"
 	@echo "... src/robot_controller.s"
-	@echo "... src/rviz.o"
-	@echo "... src/rviz.i"
-	@echo "... src/rviz.s"
 .PHONY : help
 
 
