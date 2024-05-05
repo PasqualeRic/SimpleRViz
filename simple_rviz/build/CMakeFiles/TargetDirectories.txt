@@ -53,7 +53,6 @@
 /home/ubuntu/simple_rviz/build/simple_rviz_pkg/CMakeFiles/rviz.dir
 /home/ubuntu/simple_rviz/build/simple_rviz_pkg/CMakeFiles/sensor_msgs_generate_messages_eus.dir
 /home/ubuntu/simple_rviz/build/simple_rviz_pkg/CMakeFiles/std_msgs_generate_messages_py.dir
-/home/ubuntu/simple_rviz/build/simple_rviz_pkg/CMakeFiles/position.dir
 /home/ubuntu/simple_rviz/build/simple_rviz_pkg/CMakeFiles/std_msgs_generate_messages_nodejs.dir
 /home/ubuntu/simple_rviz/build/simple_rviz_pkg/CMakeFiles/std_msgs_generate_messages_eus.dir
 /home/ubuntu/simple_rviz/build/simple_rviz_pkg/CMakeFiles/rosgraph_msgs_generate_messages_py.dir

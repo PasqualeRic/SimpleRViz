@@ -454,19 +454,6 @@ std_msgs_generate_messages_py/fast:
 .PHONY : std_msgs_generate_messages_py/fast
 
 #=============================================================================
-# Target rules for targets named position
-
-# Build rule for target.
-position: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 position
-.PHONY : position
-
-# fast build rule for target.
-position/fast:
-	$(MAKE) -f simple_rviz_pkg/CMakeFiles/position.dir/build.make simple_rviz_pkg/CMakeFiles/position.dir/build
-.PHONY : position/fast
-
-#=============================================================================
 # Target rules for targets named std_msgs_generate_messages_nodejs
 
 # Build rule for target.
@@ -995,7 +982,6 @@ help:
 	@echo "... rviz"
 	@echo "... sensor_msgs_generate_messages_eus"
 	@echo "... std_msgs_generate_messages_py"
-	@echo "... position"
 	@echo "... std_msgs_generate_messages_nodejs"
 	@echo "... std_msgs_generate_messages_eus"
 	@echo "... rosgraph_msgs_generate_messages_py"

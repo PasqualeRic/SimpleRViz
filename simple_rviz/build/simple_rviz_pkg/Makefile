@@ -363,21 +363,6 @@ std_msgs_generate_messages_py/fast:
 .PHONY : std_msgs_generate_messages_py/fast
 
 # Convenience name for target.
-simple_rviz_pkg/CMakeFiles/position.dir/rule:
-	cd /home/ubuntu/simple_rviz/build && $(MAKE) -f CMakeFiles/Makefile2 simple_rviz_pkg/CMakeFiles/position.dir/rule
-.PHONY : simple_rviz_pkg/CMakeFiles/position.dir/rule
-
-# Convenience name for target.
-position: simple_rviz_pkg/CMakeFiles/position.dir/rule
-
-.PHONY : position
-
-# fast build rule for target.
-position/fast:
-	cd /home/ubuntu/simple_rviz/build && $(MAKE) -f simple_rviz_pkg/CMakeFiles/position.dir/build.make simple_rviz_pkg/CMakeFiles/position.dir/build
-.PHONY : position/fast
-
-# Convenience name for target.
 simple_rviz_pkg/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule:
 	cd /home/ubuntu/simple_rviz/build && $(MAKE) -f CMakeFiles/Makefile2 simple_rviz_pkg/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
 .PHONY : simple_rviz_pkg/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
@@ -974,33 +959,6 @@ src/Occupancygrid.cpp.s:
 	cd /home/ubuntu/simple_rviz/build && $(MAKE) -f simple_rviz_pkg/CMakeFiles/rviz.dir/build.make simple_rviz_pkg/CMakeFiles/rviz.dir/src/Occupancygrid.cpp.s
 .PHONY : src/Occupancygrid.cpp.s
 
-src/robot_controller.o: src/robot_controller.cpp.o
-
-.PHONY : src/robot_controller.o
-
-# target to build an object file
-src/robot_controller.cpp.o:
-	cd /home/ubuntu/simple_rviz/build && $(MAKE) -f simple_rviz_pkg/CMakeFiles/position.dir/build.make simple_rviz_pkg/CMakeFiles/position.dir/src/robot_controller.cpp.o
-.PHONY : src/robot_controller.cpp.o
-
-src/robot_controller.i: src/robot_controller.cpp.i
-
-.PHONY : src/robot_controller.i
-
-# target to preprocess a source file
-src/robot_controller.cpp.i:
-	cd /home/ubuntu/simple_rviz/build && $(MAKE) -f simple_rviz_pkg/CMakeFiles/position.dir/build.make simple_rviz_pkg/CMakeFiles/position.dir/src/robot_controller.cpp.i
-.PHONY : src/robot_controller.cpp.i
-
-src/robot_controller.s: src/robot_controller.cpp.s
-
-.PHONY : src/robot_controller.s
-
-# target to generate assembly for a file
-src/robot_controller.cpp.s:
-	cd /home/ubuntu/simple_rviz/build && $(MAKE) -f simple_rviz_pkg/CMakeFiles/position.dir/build.make simple_rviz_pkg/CMakeFiles/position.dir/src/robot_controller.cpp.s
-.PHONY : src/robot_controller.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1025,7 +983,6 @@ help:
 	@echo "... rviz"
 	@echo "... sensor_msgs_generate_messages_eus"
 	@echo "... std_msgs_generate_messages_py"
-	@echo "... position"
 	@echo "... std_msgs_generate_messages_nodejs"
 	@echo "... std_msgs_generate_messages_eus"
 	@echo "... rosgraph_msgs_generate_messages_py"
@@ -1069,9 +1026,6 @@ help:
 	@echo "... src/Occupancygrid.o"
 	@echo "... src/Occupancygrid.i"
 	@echo "... src/Occupancygrid.s"
-	@echo "... src/robot_controller.o"
-	@echo "... src/robot_controller.i"
-	@echo "... src/robot_controller.s"
 .PHONY : help
 
 
