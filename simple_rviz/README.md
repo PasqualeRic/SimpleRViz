@@ -1,2 +1,2 @@
 # SimpleRViz
-# Ricciulli Pasquale 2115446
+# Pasquale Ricciulli 2115446
